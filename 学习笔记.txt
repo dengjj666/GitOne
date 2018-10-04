@@ -1,0 +1,15 @@
+一：
+    初始化一个GIt仓库，使用 git init 命令
+    添加文件到Git仓库，分两步:
+    1.使用命令 git add <file>， 注意：可以反复多次使用，添加多个文件
+    2.使用命令 gitcommit -m <message>, 完成
+
+二：
+    要随时掌握工作区的状态，使用 git ststus 命令
+    如果 git status 告诉你有文件被修改过，用 git diff 命令查看修改内容
+    
+三：
+    HEAD指向当前版本，git reset --hard commit_id 回退版本
+    用 git log 查看提交历史
+    用 git reflog 查看命令历史
+    用 cat 查看文本内容
