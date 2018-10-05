@@ -40,4 +40,4 @@
     删除分支： git branch -d <name>
 
 九：
-    用 git log --graph --pretty=oneline --abbrev-commit 命令查看简约的分支合并图
+    用 git log --graph 命令可以查看分支合并图, 用 git log --graph --pretty=oneline --abbrev-commit 命令查看简约的分支合并图
